@@ -1,0 +1,96 @@
+body{
+    background-color: #6395D0;
+}
+#central-box{
+    text-align: center;
+    margin-top: 6rem;
+    /* padding:1.4rem; */
+    background-color: #F4F2FF;
+}
+.navbar-local{
+    background-color: #F4F2FF;
+}
+input {
+    text-align: center;
+  }
+#central-box-heading{
+    padding-bottom: 1.5rem;
+}
+#sign-out-img{
+    width: 7%;
+    position: relative;
+    float: right;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #F4F2FF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+    .sidebar a.active {
+    background-color: #F4F2FF;
+    color: black;
+  }
+    .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: #000;
+  }
+    div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+    @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #central-box{
+      width: 300px;
+      /* margin: auto; */
+      position: relative;
+      margin-top: 6rem;
+      padding:1.4rem;
+      background-color: #F4F2FF;
+      margin: 6rem auto;
+      text-align: center;
+      /* border: 5px solid #FFFF00; */
+      }
+  }
+  @media only screen and (min-width: 600px) {
+      #central-box{
+          width: 455px;
+          /* margin: auto; */
+          position: relative;
+          margin-top: 6rem;
+          padding:1.4rem;
+          background-color: #F4F2FF;
+          margin: 6rem auto;
+          text-align: center;
+          /* border: 5px solid #FFFF00; */
+      }
+      .sidebar a {
+          text-align: center;
+          float: none;
+        }
+  }
